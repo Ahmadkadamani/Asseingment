@@ -1,5 +1,6 @@
-
-body { margin-top: 50px;}
+@import url('font/YeonSung-Regular.ttf');
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+/* nav bar style */
 .container { width: 80%; margin: 0 auto;}
    .Hnav ::after {
      content: '';
@@ -31,6 +32,7 @@ width: 100%;}
     text-decoration: none;
     text-transform: uppercase;
   }
+  /* header 2 style */
   h2 {
     display: inline-block;
     color: #000000 ;
@@ -39,10 +41,12 @@ width: 100%;}
     margin: 5px;
     font-family: 'Yeon Sung', cursive;
 }
-h1 {margin-top: 56px;
+/* header 1 style */
+h1 {margin-top: 36px;
 border: black solid 2px;
 padding: 6px;
 display: inline-block;}
+/* order list style */
  ol{ margin-top: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   
@@ -57,10 +61,15 @@ display: inline-block;}
   background-position: center;
   font-family: sans-serif;
 }
+h3 {
+  font-family: 'McLaren', cursive;
+}
+/* form style */
 form {
   margin-top: 50px;
   transition: all 4s ease-in-out;
 }
+/* form style */
 .form-control{
   width: 600px;
   background: transparent;
@@ -74,6 +83,7 @@ form {
 input {
   height: 45px;
 }
+/* form button style */
 form .submit {
   background: #ff5722;
   border-color: transparent;
@@ -88,6 +98,7 @@ body {
   background-color: #AAAAAA ;
   font-size: large;
 }
+/* autoplayed video style*/
 #myVideo {
   
   
@@ -102,4 +113,17 @@ body {
   
   
 }
+#maincontent {
+  padding-top: 35px;
+}
+#secondarycontent {
+  padding-top: 68px;
+}
+#Sportcontent {
+  padding-top: 65px;
+}
+#Referralcontent {
+  padding-top: 65px;
+}
+
  
